@@ -4,6 +4,7 @@ import org.gfontestad.appmockito.ejemplos.models.Examen;
 
 import java.util.List;
 
-public interface ExamenRepository {
+public interface ExamenRepositoryInterface {
+    Examen guardar(Examen examen);
     List<Examen> findAll();
 }
